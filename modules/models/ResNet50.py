@@ -12,12 +12,13 @@ class Image2tensor:
         self.resnet50 = models.resnet50(weights=ResNet50_Weights.DEFAULT)
         self.resnet50.eval()
         self.preprocess = transforms.Compose([
+            # 确保图像为3通道RGB格式
+            transforms.Grayscale(num_output_channels=3),
             transforms.Resize(256),
             transforms.CenterCrop(224),
             transforms.ToTensor(),
             transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
         ])
-
     def image2tensor(self, image):
         img_tensor = self.preprocess(image)
         img_tensor = img_tensor.unsqueeze(0)  # 添加batch维度
