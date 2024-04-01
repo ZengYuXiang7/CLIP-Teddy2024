@@ -2,7 +2,8 @@
 # Author : yuxiang Zeng
 
 from time import time
-
+import faiss  # 导入faiss
+import numpy as np
 
 class LSH:
     def __init__(self, k, d, nbits):
@@ -95,8 +96,6 @@ class HNSWIndex:
 
 # 最大近邻搜索
 if __name__ == '__main__':
-    import numpy as np
-    import faiss  # 导入faiss
 
     d = 64  # 向量维度
     nb = 190000  # 数据库大小
