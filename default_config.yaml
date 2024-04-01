@@ -1,0 +1,45 @@
+# Builtin Configurations(DO NOT CHANGE THESE CONFIGURATIONS unless you know exactly what you are doing)
+seed: 0
+device: 'cpu'
+rounds: 5
+epochs: 300
+patience: 10
+
+# Model
+logger: 'Run'
+dataset: 'rt'
+model: 'DNN'
+density: 0.10
+
+# Debug configuration
+debug: 0
+saved: 1
+record: 0
+verbose: 1
+experiment: 0
+path: './datasets/'
+
+# Learning configuration
+bs: 256
+lr: 0.001
+decay: 0.0001
+
+# Training tools
+loss_func: 'L1Loss'
+optim: 'AdamW'
+program_test: 0
+
+# Hyperparameter
+order: 3
+check: 1
+user_num: 339
+serv_num: 5825
+
+dimension: 32
+# Other configuration
+ablation: 0
+classification: 0
+
+---
+# Config description for each option
+experiment: 'Run the experiment now!'

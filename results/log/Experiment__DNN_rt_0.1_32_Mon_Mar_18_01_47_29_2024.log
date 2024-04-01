@@ -1,0 +1,51 @@
+INFO:DNN:|2024-03-18 01:47:29| {'ablation': 0,
+ 'bs': 256,
+ 'check': 1,
+ 'classification': 0,
+ 'config_path': '/Users/zengyuxiang/Documents/科研代码/Reloop_MF/utils/../default_config.yaml',
+ 'dataset': 'rt',
+ 'debug': 0,
+ 'decay': 0.001,
+ 'density': 0.1,
+ 'device': 'cpu',
+ 'dimension': 32,
+ 'epochs': 300,
+ 'experiment': 1,
+ 'k': 3,
+ 'log': <utils.logger.Logger object at 0x7fd03812bfa0>,
+ 'logger': 'Experiment',
+ 'loss_func': 'L1Loss',
+ 'lr': 0.001,
+ 'model': 'DNN',
+ 'optim': 'AdamW',
+ 'path': './datasets/',
+ 'patience': 10,
+ 'program_test': 0,
+ 'record': 1,
+ 'rounds': 5,
+ 'saved': 1,
+ 'seed': 0,
+ 'serv_num': 5825,
+ 'user_num': 339,
+ 'verbose': 1
+INFO:DNN:|2024-03-18 01:47:29| ********************Experiment Start*******************
+INFO:DNN:|2024-03-18 01:58:15| Round=1 BestEpoch=51 MAE=0.3729 RMSE=1.2777 NMAE=0.4105 NRMSE=0.5886 Training_time=278.0 
+INFO:DNN:|2024-03-18 01:58:15| Acc = [1%=0.0247, 5%=0.1203, 10%=0.2285]
+INFO:DNN:|2024-03-18 02:09:19| Round=2 BestEpoch=55 MAE=0.3782 RMSE=1.2822 NMAE=0.4160 NRMSE=0.5898 Training_time=275.2 
+INFO:DNN:|2024-03-18 02:09:19| Acc = [1%=0.0248, 5%=0.1199, 10%=0.2282]
+INFO:DNN:|2024-03-18 02:20:00| Round=3 BestEpoch=53 MAE=0.3882 RMSE=1.2904 NMAE=0.4277 NRMSE=0.5950 Training_time=264.6 
+INFO:DNN:|2024-03-18 02:20:00| Acc = [1%=0.0222, 5%=0.1096, 10%=0.2122]
+INFO:DNN:|2024-03-18 04:18:20| Round=4 BestEpoch=50 MAE=0.3868 RMSE=1.2820 NMAE=0.4263 NRMSE=0.5911 Training_time=1347.2 
+INFO:DNN:|2024-03-18 04:18:20| Acc = [1%=0.0235, 5%=0.1142, 10%=0.2193]
+INFO:DNN:|2024-03-18 07:28:37| Round=5 BestEpoch=63 MAE=0.3931 RMSE=1.2867 NMAE=0.4332 NRMSE=0.5931 Training_time=4410.6 
+INFO:DNN:|2024-03-18 07:28:37| Acc = [1%=0.0240, 5%=0.1156, 10%=0.2180]
+INFO:DNN:|2024-03-18 07:28:37| ********************Experiment Results:*******************
+INFO:DNN:|2024-03-18 07:28:37| MAE: 0.3839 ± 0.007
+INFO:DNN:|2024-03-18 07:28:37| RMSE: 1.2838 ± 0.004
+INFO:DNN:|2024-03-18 07:28:37| NMAE: 0.4227 ± 0.008
+INFO:DNN:|2024-03-18 07:28:37| NRMSE: 0.5915 ± 0.002
+INFO:DNN:|2024-03-18 07:28:37| TIME: 1315.1210 ± 1602.713
+INFO:DNN:|2024-03-18 07:28:37| Acc1: 0.0238 ± 0.000
+INFO:DNN:|2024-03-18 07:28:37| Acc5: 0.1159 ± 0.003
+INFO:DNN:|2024-03-18 07:28:37| Acc10: 0.2212 ± 0.006
+INFO:DNN:|2024-03-18 07:28:37| ********************Experiment Success********************
