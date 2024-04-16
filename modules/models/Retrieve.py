@@ -81,6 +81,7 @@ class IVFPQIndex:
         topk_distance, topk_indices = self.index.search(h_query, self.k)
         return topk_distance, topk_indices
 
+
 class HNSWIndex:
     def __init__(self, k, d):
         self.d = d
