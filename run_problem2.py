@@ -41,8 +41,8 @@ class Raw2Vector:
         return text_features
 
     def retrieve(self, query, database):
+        # print(query.shape, database.shape)
         # image, text : torch.Size([1, 3, 224, 224]) torch.Size([4, 52])
-        query = query.unsqueeze(0).to(self.args.device)
         logits_per_image, logits_per_text = self.model.get_similarity(query, database)
         probs = logits_per_image.softmax(dim=-1).cpu().detach().numpy()
         return probs
@@ -52,7 +52,7 @@ if __name__ == '__main__':
     args = get_config()
     transfer = Raw2Vector('ViT-B-16', '1', args)
 
-    address = os.path.dirname(os.path.abspath(__file__)) + '/img_2.png'
+    address = os.path.dirname(os.path.abspath(__file__)) + '/test_image/img_2.png'
     # print(address)
 
     # Get the image
@@ -64,9 +64,10 @@ if __name__ == '__main__':
     raw_text = ["杰尼龟", "妙蛙种子", "小火龙", "皮卡丘", "天空"]
     text_tensor = clip.tokenize(raw_text).to(args.device)
     text_features = transfer.text2tensor(text_tensor)
+    # print(text_features.shape)
 
     # Retrieve
-    probs = transfer.retrieve(image_tensor, text_tensor)
+    probs = transfer.retrieve(image_features, text_features)
     print(probs)
 
     max_index = np.argmax(probs, axis=1)

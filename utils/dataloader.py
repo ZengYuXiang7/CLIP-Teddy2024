@@ -22,7 +22,7 @@ def get_dataloaders(train_set, valid_set, test_set, args):
     )
     valid_loader = DataLoader(
         valid_set,
-        batch_size=4096,
+        batch_size=args.bs,
         drop_last=False,
         shuffle=False,
         pin_memory=True,
@@ -32,7 +32,7 @@ def get_dataloaders(train_set, valid_set, test_set, args):
     )
     test_loader = DataLoader(
         test_set,
-        batch_size=4096,  # 8192
+        batch_size=args.bs,  # 8192
         drop_last=False,
         shuffle=False,
         pin_memory=True,

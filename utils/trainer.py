@@ -26,7 +26,7 @@ def get_optimizer(parameters, lr, decay, args):
     elif optimizer_name == 'Momentum':
         optimizer = t.optim.SGD(parameters, lr=learning_rate, momentum=0.9, weight_decay=weight_decay)
     elif optimizer_name == 'Adam':
-        optimizer = t.optim.Adam(parameters, lr=learning_rate, weight_decay=weight_decay)
+        optimizer = t.optim.Adam(parameters, lr=learning_rate, weight_decay=weight_decay, betas=(0.9, 0.98), eps=1e-6)
     elif optimizer_name == 'AdamW':
         optimizer = t.optim.AdamW(parameters, lr=learning_rate, weight_decay=weight_decay)
     elif optimizer_name == 'Adagrad':

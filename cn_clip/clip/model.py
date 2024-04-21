@@ -414,19 +414,27 @@ class CLIP(nn.Module):
 
         return image_features, text_features, self.logit_scale.exp()
 
-    def get_similarity(self, image, text):
-        image_features = self.encode_image(image)
-        text_features = self.encode_text(text)
+    # def get_similarity(self, image, text):
+        # image_features = self.encode_image(image)
+        # text_features = self.encode_text(text)
 
         # normalized features
-        image_features = image_features / image_features.norm(dim=1, keepdim=True)
-        text_features = text_features / text_features.norm(dim=1, keepdim=True)
+        # image_features = image_features / image_features.norm(dim=1, keepdim=True)
+        # text_features = text_features / text_features.norm(dim=1, keepdim=True)
+        # cosine similarity as logits
+        # logit_scale = self.logit_scale.exp()
+        # logits_per_image = logit_scale * image_features @ text_features.t()
+        # logits_per_text = logits_per_image.t()
+        #
+        # # shape = [global_batch_size, global_batch_size]
+        # return logits_per_image, logits_per_text
 
+    def get_similarity(self, image_features, text_features):
+        # print(image_features.shape, text_features.shape)
         # cosine similarity as logits
         logit_scale = self.logit_scale.exp()
         logits_per_image = logit_scale * image_features @ text_features.t()
         logits_per_text = logits_per_image.t()
-
         # shape = [global_batch_size, global_batch_size]
         return logits_per_image, logits_per_text
 

@@ -1,15 +1,15 @@
 # Builtin Configurations(DO NOT CHANGE THESE CONFIGURATIONS unless you know exactly what you are doing)
 seed: 0
-device: 'cpu'
+device: 'mps'
 rounds: 5
-epochs: 300
-patience: 10
+epochs: 15
+patience: 3
 
 # Model
 logger: 'Run'
 dataset: 'rt'
 model: 'DNN'
-density: 0.10
+density: 0.80
 
 # Debug configuration
 debug: 0
@@ -20,25 +20,23 @@ experiment: 0
 path: './datasets/'
 
 # Learning configuration
-bs: 256
-lr: 0.001
-decay: 0.0001
+bs: 32
+lr: 0.000001
+decay: 0.000001
 
 # Training tools
-loss_func: 'L1Loss'
-optim: 'AdamW'
+loss_func: 'CrossEntropyLoss'
+optim: 'Adam'
 program_test: 0
 
 # Hyperparameter
 order: 3
-check: 1
-user_num: 339
-serv_num: 5825
-
+retrieve_method: 'L2'
 dimension: 32
+
 # Other configuration
 ablation: 0
-classification: 0
+classification: 1
 
 ---
 # Config description for each option
