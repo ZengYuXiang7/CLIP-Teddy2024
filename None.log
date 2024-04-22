@@ -257,3 +257,548 @@ INFO:DNN:|2024-04-21 12:44:37| {'ablation': 0,
  'verbose': 1
 INFO:DNN:|2024-04-21 12:44:37| ********************Experiment Start*******************
 INFO:DNN:|2024-04-21 12:44:39| Raw tensor loaded
+INFO:DNN:|2024-04-21 13:08:42| -------------------------------------------------------------------------------
+INFO:faiss.loader:Loading faiss.
+INFO:DNN:|2024-04-21 13:08:42| Recall@5=      0.01000
+INFO:DNN:|2024-04-21 13:08:42| NDCG@5=        0.00552
+INFO:DNN:|2024-04-21 13:08:42| Recall@10=     0.02200
+INFO:DNN:|2024-04-21 13:08:42| NDCG@10=       0.00926
+INFO:DNN:|2024-04-21 13:08:42| Recall@20=     0.04800
+INFO:DNN:|2024-04-21 13:08:42| NDCG@20=       0.01574
+INFO:DNN:|2024-04-21 13:08:42| Recall@50=     0.10600
+INFO:DNN:|2024-04-21 13:08:42| NDCG@50=       0.02712
+INFO:DNN:|2024-04-21 13:30:56| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-21 13:30:56| Recall@5=      0.00800
+INFO:DNN:|2024-04-21 13:30:56| NDCG@5=        0.00463
+INFO:DNN:|2024-04-21 13:30:56| Recall@10=     0.02400
+INFO:DNN:|2024-04-21 13:30:56| NDCG@10=       0.00993
+INFO:DNN:|2024-04-21 13:30:56| Recall@20=     0.04800
+INFO:DNN:|2024-04-21 13:30:56| NDCG@20=       0.01600
+INFO:DNN:|2024-04-21 13:30:56| Recall@50=     0.11400
+INFO:DNN:|2024-04-21 13:30:56| NDCG@50=       0.02866
+INFO:DNN:|2024-04-21 13:53:23| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-21 13:53:23| Recall@5=      0.01000
+INFO:DNN:|2024-04-21 13:53:23| NDCG@5=        0.00689
+INFO:DNN:|2024-04-21 13:53:23| Recall@10=     0.02200
+INFO:DNN:|2024-04-21 13:53:23| NDCG@10=       0.01073
+INFO:DNN:|2024-04-21 13:53:23| Recall@20=     0.03600
+INFO:DNN:|2024-04-21 13:53:23| NDCG@20=       0.01430
+INFO:DNN:|2024-04-21 13:53:23| Recall@50=     0.11600
+INFO:DNN:|2024-04-21 13:53:23| NDCG@50=       0.03012
+INFO:DNN:|2024-04-21 14:16:05| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-21 14:16:05| Recall@5=      0.01600
+INFO:DNN:|2024-04-21 14:16:05| NDCG@5=        0.01186
+INFO:DNN:|2024-04-21 14:16:05| Recall@10=     0.03000
+INFO:DNN:|2024-04-21 14:16:05| NDCG@10=       0.01625
+INFO:DNN:|2024-04-21 14:16:05| Recall@20=     0.04600
+INFO:DNN:|2024-04-21 14:16:05| NDCG@20=       0.02022
+INFO:DNN:|2024-04-21 14:16:05| Recall@50=     0.12000
+INFO:DNN:|2024-04-21 14:16:05| NDCG@50=       0.03450
+INFO:DNN:|2024-04-21 14:38:44| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-21 14:38:44| Recall@5=      0.01200
+INFO:DNN:|2024-04-21 14:38:44| NDCG@5=        0.00553
+INFO:DNN:|2024-04-21 14:38:44| Recall@10=     0.02000
+INFO:DNN:|2024-04-21 14:38:44| NDCG@10=       0.00806
+INFO:DNN:|2024-04-21 14:38:44| Recall@20=     0.04400
+INFO:DNN:|2024-04-21 14:38:44| NDCG@20=       0.01429
+INFO:DNN:|2024-04-21 14:38:44| Recall@50=     0.10400
+INFO:DNN:|2024-04-21 14:38:44| NDCG@50=       0.02611
+INFO:DNN:|2024-04-21 15:15:48| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-21 15:15:48| Recall@5=      0.00600
+INFO:DNN:|2024-04-21 15:15:48| NDCG@5=        0.00249
+INFO:DNN:|2024-04-21 15:15:48| Recall@10=     0.01600
+INFO:DNN:|2024-04-21 15:15:48| NDCG@10=       0.00581
+INFO:DNN:|2024-04-21 15:15:48| Recall@20=     0.04000
+INFO:DNN:|2024-04-21 15:15:48| NDCG@20=       0.01169
+INFO:DNN:|2024-04-21 15:15:48| Recall@50=     0.10400
+INFO:DNN:|2024-04-21 15:15:48| NDCG@50=       0.02432
+INFO:DNN:|2024-04-21 15:39:21| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-21 15:39:21| Recall@5=      0.00400
+INFO:DNN:|2024-04-21 15:39:21| NDCG@5=        0.00277
+INFO:DNN:|2024-04-21 15:39:21| Recall@10=     0.02200
+INFO:DNN:|2024-04-21 15:39:21| NDCG@10=       0.00849
+INFO:DNN:|2024-04-21 15:39:21| Recall@20=     0.04400
+INFO:DNN:|2024-04-21 15:39:21| NDCG@20=       0.01381
+INFO:DNN:|2024-04-21 15:39:21| Recall@50=     0.11000
+INFO:DNN:|2024-04-21 15:39:21| NDCG@50=       0.02651
+INFO:DNN:|2024-04-22 12:36:02| {'ablation': 0,
+ 'bs': 32,
+ 'classification': 1,
+ 'config_path': '/Users/zengyuxiang/Documents/科研代码/CLIP_finetune/utils/../default_config.yaml',
+ 'dataset': 'rt',
+ 'debug': 0,
+ 'decay': 1e-06,
+ 'density': 0.001,
+ 'device': 'mps',
+ 'dimension': 32,
+ 'epochs': 15,
+ 'experiment': 0,
+ 'log': <utils.logger.Logger object at 0x7fa199873c40>,
+ 'logger': 'Run',
+ 'loss_func': 'CrossEntropyLoss',
+ 'lr': 1e-06,
+ 'model': 'DNN',
+ 'optim': 'Adam',
+ 'order': 3,
+ 'path': './datasets/',
+ 'patience': 3,
+ 'program_test': 0,
+ 'record': 0,
+ 'retrieve_method': 'L2',
+ 'rounds': 5,
+ 'saved': 1,
+ 'seed': 0,
+ 'verbose': 1
+INFO:DNN:|2024-04-22 12:36:02| ********************Experiment Start*******************
+INFO:DNN:|2024-04-22 12:36:04| Raw tensor loaded
+INFO:DNN:|2024-04-22 12:36:36| {'ablation': 0,
+ 'bs': 32,
+ 'classification': 1,
+ 'config_path': '/Users/zengyuxiang/Documents/科研代码/CLIP_finetune/utils/../default_config.yaml',
+ 'dataset': 'rt',
+ 'debug': 0,
+ 'decay': 1e-06,
+ 'density': 0.001,
+ 'device': 'mps',
+ 'dimension': 32,
+ 'epochs': 15,
+ 'experiment': 0,
+ 'log': <utils.logger.Logger object at 0x7fb361f63c40>,
+ 'logger': 'Run',
+ 'loss_func': 'CrossEntropyLoss',
+ 'lr': 1e-06,
+ 'model': 'DNN',
+ 'optim': 'Adam',
+ 'order': 3,
+ 'path': './datasets/',
+ 'patience': 3,
+ 'program_test': 0,
+ 'record': 0,
+ 'retrieve_method': 'L2',
+ 'rounds': 5,
+ 'saved': 1,
+ 'seed': 0,
+ 'verbose': 1
+INFO:DNN:|2024-04-22 12:36:36| ********************Experiment Start*******************
+INFO:DNN:|2024-04-22 12:36:38| Raw tensor loaded
+INFO:DNN:|2024-04-22 12:36:43| -------------------------------------------------------------------------------
+INFO:faiss.loader:Loading faiss.
+INFO:DNN:|2024-04-22 12:36:44| Recall@5=      0.12000
+INFO:DNN:|2024-04-22 12:36:44| NDCG@5=        0.06932
+INFO:DNN:|2024-04-22 12:36:44| Recall@10=     0.26000
+INFO:DNN:|2024-04-22 12:36:44| NDCG@10=       0.11367
+INFO:DNN:|2024-04-22 12:36:44| Recall@20=     0.42000
+INFO:DNN:|2024-04-22 12:36:44| NDCG@20=       0.15271
+INFO:DNN:|2024-04-22 12:36:44| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 12:36:44| NDCG@50=       0.26537
+INFO:DNN:|2024-04-22 12:36:46| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 12:36:46| Recall@5=      0.14000
+INFO:DNN:|2024-04-22 12:36:46| NDCG@5=        0.09107
+INFO:DNN:|2024-04-22 12:36:46| Recall@10=     0.26000
+INFO:DNN:|2024-04-22 12:36:46| NDCG@10=       0.12964
+INFO:DNN:|2024-04-22 12:36:46| Recall@20=     0.52000
+INFO:DNN:|2024-04-22 12:36:46| NDCG@20=       0.19507
+INFO:DNN:|2024-04-22 12:36:46| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 12:36:46| NDCG@50=       0.28771
+INFO:DNN:|2024-04-22 12:36:47| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 12:36:47| Recall@5=      0.18000
+INFO:DNN:|2024-04-22 12:36:47| NDCG@5=        0.11055
+INFO:DNN:|2024-04-22 12:36:47| Recall@10=     0.26000
+INFO:DNN:|2024-04-22 12:36:47| NDCG@10=       0.13497
+INFO:DNN:|2024-04-22 12:36:47| Recall@20=     0.46000
+INFO:DNN:|2024-04-22 12:36:47| NDCG@20=       0.18587
+INFO:DNN:|2024-04-22 12:36:47| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 12:36:47| NDCG@50=       0.29283
+INFO:DNN:|2024-04-22 12:36:49| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 12:36:49| Recall@5=      0.18000
+INFO:DNN:|2024-04-22 12:36:49| NDCG@5=        0.12984
+INFO:DNN:|2024-04-22 12:36:49| Recall@10=     0.32000
+INFO:DNN:|2024-04-22 12:36:49| NDCG@10=       0.17508
+INFO:DNN:|2024-04-22 12:36:49| Recall@20=     0.50000
+INFO:DNN:|2024-04-22 12:36:49| NDCG@20=       0.21984
+INFO:DNN:|2024-04-22 12:36:49| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 12:36:49| NDCG@50=       0.31863
+INFO:DNN:|2024-04-22 12:36:51| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 12:36:51| Recall@5=      0.18000
+INFO:DNN:|2024-04-22 12:36:51| NDCG@5=        0.13020
+INFO:DNN:|2024-04-22 12:36:51| Recall@10=     0.40000
+INFO:DNN:|2024-04-22 12:36:51| NDCG@10=       0.19932
+INFO:DNN:|2024-04-22 12:36:51| Recall@20=     0.60000
+INFO:DNN:|2024-04-22 12:36:51| NDCG@20=       0.25068
+INFO:DNN:|2024-04-22 12:36:51| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 12:36:51| NDCG@50=       0.32761
+INFO:DNN:|2024-04-22 12:36:53| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 12:36:53| Recall@5=      0.22000
+INFO:DNN:|2024-04-22 12:36:53| NDCG@5=        0.16297
+INFO:DNN:|2024-04-22 12:36:53| Recall@10=     0.38000
+INFO:DNN:|2024-04-22 12:36:53| NDCG@10=       0.21397
+INFO:DNN:|2024-04-22 12:36:53| Recall@20=     0.60000
+INFO:DNN:|2024-04-22 12:36:53| NDCG@20=       0.26991
+INFO:DNN:|2024-04-22 12:36:53| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 12:36:53| NDCG@50=       0.34900
+INFO:DNN:|2024-04-22 13:19:16| {'ablation': 0,
+ 'bs': 32,
+ 'classification': 1,
+ 'config_path': '/Users/zengyuxiang/Documents/科研代码/CLIP_finetune/utils/../default_config.yaml',
+ 'dataset': 'rt',
+ 'debug': 0,
+ 'decay': 1e-06,
+ 'density': 1.0,
+ 'device': 'mps',
+ 'dimension': 32,
+ 'epochs': 15,
+ 'experiment': 0,
+ 'log': <utils.logger.Logger object at 0x7fc898eb2c40>,
+ 'logger': 'Run',
+ 'loss_func': 'CrossEntropyLoss',
+ 'lr': 1e-06,
+ 'model': 'DNN',
+ 'optim': 'Adam',
+ 'order': 3,
+ 'path': './datasets/',
+ 'patience': 3,
+ 'program_test': 0,
+ 'record': 0,
+ 'retrieve_method': 'L2',
+ 'rounds': 5,
+ 'saved': 1,
+ 'seed': 0,
+ 'verbose': 1
+INFO:DNN:|2024-04-22 13:19:16| ********************Experiment Start*******************
+INFO:DNN:|2024-04-22 13:19:18| Raw tensor loaded
+INFO:DNN:|2024-04-22 14:30:58| {'ablation': 0,
+ 'bs': 32,
+ 'classification': 1,
+ 'config_path': '/Users/zengyuxiang/Documents/科研代码/CLIP_finetune/utils/../default_config.yaml',
+ 'dataset': 'rt',
+ 'debug': 0,
+ 'decay': 1e-06,
+ 'density': 1.0,
+ 'device': 'mps',
+ 'dimension': 32,
+ 'epochs': 15,
+ 'experiment': 0,
+ 'log': <utils.logger.Logger object at 0x7fcf8854aca0>,
+ 'logger': 'Run',
+ 'loss_func': 'CrossEntropyLoss',
+ 'lr': 1e-06,
+ 'model': 'DNN',
+ 'optim': 'Adam',
+ 'order': 3,
+ 'path': './datasets/',
+ 'patience': 3,
+ 'program_test': 0,
+ 'record': 0,
+ 'retrieve_method': 'L2',
+ 'rounds': 5,
+ 'saved': 1,
+ 'seed': 0,
+ 'verbose': 1
+INFO:DNN:|2024-04-22 14:30:58| ********************Experiment Start*******************
+INFO:DNN:|2024-04-22 14:31:00| Raw tensor loaded
+INFO:DNN:|2024-04-22 14:37:10| {'ablation': 0,
+ 'bs': 32,
+ 'classification': 1,
+ 'config_path': '/Users/zengyuxiang/Documents/科研代码/CLIP_finetune/utils/../default_config.yaml',
+ 'dataset': 'rt',
+ 'debug': 0,
+ 'decay': 1e-06,
+ 'density': 1.0,
+ 'device': 'mps',
+ 'dimension': 32,
+ 'epochs': 15,
+ 'experiment': 0,
+ 'log': <utils.logger.Logger object at 0x7fe84005fa60>,
+ 'logger': 'Run',
+ 'loss_func': 'CrossEntropyLoss',
+ 'lr': 1e-06,
+ 'model': 'DNN',
+ 'optim': 'Adam',
+ 'order': 3,
+ 'path': './datasets/',
+ 'patience': 3,
+ 'program_test': 0,
+ 'record': 0,
+ 'retrieve_method': 'L2',
+ 'rounds': 5,
+ 'saved': 1,
+ 'seed': 0,
+ 'verbose': 1
+INFO:DNN:|2024-04-22 14:37:10| ********************Experiment Start*******************
+INFO:DNN:|2024-04-22 14:37:12| Raw tensor loaded
+INFO:DNN:|2024-04-22 14:44:25| {'ablation': 0,
+ 'bs': 32,
+ 'classification': 1,
+ 'config_path': '/Users/zengyuxiang/Documents/科研代码/CLIP_finetune/utils/../default_config.yaml',
+ 'dataset': 'rt',
+ 'debug': 0,
+ 'decay': 1e-06,
+ 'density': 1.0,
+ 'device': 'mps',
+ 'dimension': 32,
+ 'epochs': 15,
+ 'experiment': 0,
+ 'log': <utils.logger.Logger object at 0x7ff4883e7a60>,
+ 'logger': 'Run',
+ 'loss_func': 'CrossEntropyLoss',
+ 'lr': 1e-06,
+ 'model': 'DNN',
+ 'optim': 'Adam',
+ 'order': 3,
+ 'path': './datasets/',
+ 'patience': 3,
+ 'program_test': 0,
+ 'record': 0,
+ 'retrieve_method': 'L2',
+ 'rounds': 5,
+ 'saved': 1,
+ 'seed': 0,
+ 'verbose': 1
+INFO:DNN:|2024-04-22 14:44:25| ********************Experiment Start*******************
+INFO:DNN:|2024-04-22 14:44:27| Raw tensor loaded
+INFO:DNN:|2024-04-22 14:45:44| {'ablation': 0,
+ 'bs': 32,
+ 'classification': 1,
+ 'config_path': '/Users/zengyuxiang/Documents/科研代码/CLIP_finetune/utils/../default_config.yaml',
+ 'dataset': 'rt',
+ 'debug': 0,
+ 'decay': 1e-06,
+ 'density': 1.0,
+ 'device': 'mps',
+ 'dimension': 32,
+ 'epochs': 15,
+ 'experiment': 0,
+ 'log': <utils.logger.Logger object at 0x7f8b50522a30>,
+ 'logger': 'Run',
+ 'loss_func': 'CrossEntropyLoss',
+ 'lr': 1e-06,
+ 'model': 'DNN',
+ 'optim': 'Adam',
+ 'order': 3,
+ 'path': './datasets/',
+ 'patience': 3,
+ 'program_test': 0,
+ 'record': 0,
+ 'retrieve_method': 'L2',
+ 'rounds': 5,
+ 'saved': 1,
+ 'seed': 0,
+ 'verbose': 1
+INFO:DNN:|2024-04-22 14:45:44| ********************Experiment Start*******************
+INFO:DNN:|2024-04-22 14:45:46| Raw tensor loaded
+INFO:DNN:|2024-04-22 14:45:56| {'ablation': 0,
+ 'bs': 32,
+ 'classification': 1,
+ 'config_path': '/Users/zengyuxiang/Documents/科研代码/CLIP_finetune/utils/../default_config.yaml',
+ 'dataset': 'rt',
+ 'debug': 0,
+ 'decay': 1e-06,
+ 'density': 1.0,
+ 'device': 'mps',
+ 'dimension': 32,
+ 'epochs': 15,
+ 'experiment': 0,
+ 'log': <utils.logger.Logger object at 0x7faa02761c40>,
+ 'logger': 'Run',
+ 'loss_func': 'CrossEntropyLoss',
+ 'lr': 1e-06,
+ 'model': 'DNN',
+ 'optim': 'Adam',
+ 'order': 3,
+ 'path': './datasets/',
+ 'patience': 3,
+ 'program_test': 0,
+ 'record': 0,
+ 'retrieve_method': 'L2',
+ 'rounds': 5,
+ 'saved': 1,
+ 'seed': 0,
+ 'verbose': 1
+INFO:DNN:|2024-04-22 14:45:56| ********************Experiment Start*******************
+INFO:DNN:|2024-04-22 14:45:58| Raw tensor loaded
+INFO:DNN:|2024-04-22 15:25:25| -------------------------------------------------------------------------------
+INFO:faiss.loader:Loading faiss.
+INFO:DNN:|2024-04-22 15:25:35| Recall@5=      na
+INFO:DNN:|2024-04-22 15:25:35| NDCG@5=        na
+INFO:DNN:|2024-04-22 15:25:35| Recall@10=     na
+INFO:DNN:|2024-04-22 15:25:35| NDCG@10=       na
+INFO:DNN:|2024-04-22 15:25:35| Recall@20=     na
+INFO:DNN:|2024-04-22 15:25:35| NDCG@20=       na
+INFO:DNN:|2024-04-22 15:25:35| Recall@50=     na
+INFO:DNN:|2024-04-22 15:25:35| NDCG@50=       na
+INFO:DNN:|2024-04-22 15:31:39| {'ablation': 0,
+ 'bs': 32,
+ 'classification': 1,
+ 'config_path': '/Users/zengyuxiang/Documents/科研代码/CLIP_finetune/utils/../default_config.yaml',
+ 'dataset': 'rt',
+ 'debug': 0,
+ 'decay': 1e-06,
+ 'density': 0.0001,
+ 'device': 'mps',
+ 'dimension': 32,
+ 'epochs': 15,
+ 'experiment': 0,
+ 'log': <utils.logger.Logger object at 0x7fb1b0534c40>,
+ 'logger': 'Run',
+ 'loss_func': 'CrossEntropyLoss',
+ 'lr': 1e-06,
+ 'model': 'DNN',
+ 'optim': 'Adam',
+ 'order': 3,
+ 'path': './datasets/',
+ 'patience': 3,
+ 'program_test': 0,
+ 'record': 0,
+ 'retrieve_method': 'L2',
+ 'rounds': 5,
+ 'saved': 1,
+ 'seed': 0,
+ 'verbose': 1
+INFO:DNN:|2024-04-22 15:31:39| ********************Experiment Start*******************
+INFO:DNN:|2024-04-22 15:31:41| Raw tensor loaded
+INFO:DNN:|2024-04-22 15:31:47| -------------------------------------------------------------------------------
+INFO:faiss.loader:Loading faiss.
+INFO:DNN:|2024-04-22 15:31:47| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:47| NDCG@5=        0.75237
+INFO:DNN:|2024-04-22 15:31:47| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:47| NDCG@10=       0.75237
+INFO:DNN:|2024-04-22 15:31:47| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:47| NDCG@20=       0.75237
+INFO:DNN:|2024-04-22 15:31:47| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:47| NDCG@50=       0.75237
+INFO:DNN:|2024-04-22 15:31:48| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 15:31:48| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:48| NDCG@5=        0.82618
+INFO:DNN:|2024-04-22 15:31:48| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:48| NDCG@10=       0.82618
+INFO:DNN:|2024-04-22 15:31:48| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:48| NDCG@20=       0.82618
+INFO:DNN:|2024-04-22 15:31:48| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:48| NDCG@50=       0.82618
+INFO:DNN:|2024-04-22 15:31:48| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 15:31:48| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:48| NDCG@5=        0.92618
+INFO:DNN:|2024-04-22 15:31:48| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:48| NDCG@10=       0.92618
+INFO:DNN:|2024-04-22 15:31:48| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:48| NDCG@20=       0.92618
+INFO:DNN:|2024-04-22 15:31:48| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:48| NDCG@50=       0.92618
+INFO:DNN:|2024-04-22 15:31:48| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 15:31:48| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:48| NDCG@5=        0.92618
+INFO:DNN:|2024-04-22 15:31:48| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:48| NDCG@10=       0.92618
+INFO:DNN:|2024-04-22 15:31:48| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:48| NDCG@20=       0.92618
+INFO:DNN:|2024-04-22 15:31:48| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:48| NDCG@50=       0.92618
+INFO:DNN:|2024-04-22 15:31:49| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 15:31:49| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:49| NDCG@5=        1.00000
+INFO:DNN:|2024-04-22 15:31:49| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:49| NDCG@10=       1.00000
+INFO:DNN:|2024-04-22 15:31:49| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:49| NDCG@20=       1.00000
+INFO:DNN:|2024-04-22 15:31:49| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:49| NDCG@50=       1.00000
+INFO:DNN:|2024-04-22 15:31:49| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 15:31:49| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:49| NDCG@5=        1.00000
+INFO:DNN:|2024-04-22 15:31:49| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:49| NDCG@10=       1.00000
+INFO:DNN:|2024-04-22 15:31:49| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:49| NDCG@20=       1.00000
+INFO:DNN:|2024-04-22 15:31:49| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:49| NDCG@50=       1.00000
+INFO:DNN:|2024-04-22 15:31:49| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 15:31:49| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:49| NDCG@5=        1.00000
+INFO:DNN:|2024-04-22 15:31:49| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:49| NDCG@10=       1.00000
+INFO:DNN:|2024-04-22 15:31:49| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:49| NDCG@20=       1.00000
+INFO:DNN:|2024-04-22 15:31:49| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:49| NDCG@50=       1.00000
+INFO:DNN:|2024-04-22 15:31:50| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 15:31:50| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:50| NDCG@5=        1.00000
+INFO:DNN:|2024-04-22 15:31:50| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:50| NDCG@10=       1.00000
+INFO:DNN:|2024-04-22 15:31:50| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:50| NDCG@20=       1.00000
+INFO:DNN:|2024-04-22 15:31:50| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:50| NDCG@50=       1.00000
+INFO:DNN:|2024-04-22 15:31:50| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 15:31:50| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:50| NDCG@5=        1.00000
+INFO:DNN:|2024-04-22 15:31:50| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:50| NDCG@10=       1.00000
+INFO:DNN:|2024-04-22 15:31:50| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:50| NDCG@20=       1.00000
+INFO:DNN:|2024-04-22 15:31:50| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:50| NDCG@50=       1.00000
+INFO:DNN:|2024-04-22 15:31:51| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 15:31:51| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:51| NDCG@5=        1.00000
+INFO:DNN:|2024-04-22 15:31:51| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:51| NDCG@10=       1.00000
+INFO:DNN:|2024-04-22 15:31:51| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:51| NDCG@20=       1.00000
+INFO:DNN:|2024-04-22 15:31:51| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:51| NDCG@50=       1.00000
+INFO:DNN:|2024-04-22 15:31:51| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 15:31:51| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:51| NDCG@5=        1.00000
+INFO:DNN:|2024-04-22 15:31:51| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:51| NDCG@10=       1.00000
+INFO:DNN:|2024-04-22 15:31:51| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:51| NDCG@20=       1.00000
+INFO:DNN:|2024-04-22 15:31:51| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:51| NDCG@50=       1.00000
+INFO:DNN:|2024-04-22 15:31:51| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 15:31:51| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:51| NDCG@5=        1.00000
+INFO:DNN:|2024-04-22 15:31:51| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:51| NDCG@10=       1.00000
+INFO:DNN:|2024-04-22 15:31:51| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:51| NDCG@20=       1.00000
+INFO:DNN:|2024-04-22 15:31:51| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:51| NDCG@50=       1.00000
+INFO:DNN:|2024-04-22 15:31:52| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 15:31:52| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:52| NDCG@5=        1.00000
+INFO:DNN:|2024-04-22 15:31:52| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:52| NDCG@10=       1.00000
+INFO:DNN:|2024-04-22 15:31:52| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:52| NDCG@20=       1.00000
+INFO:DNN:|2024-04-22 15:31:52| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:52| NDCG@50=       1.00000
+INFO:DNN:|2024-04-22 15:31:52| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 15:31:52| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:52| NDCG@5=        1.00000
+INFO:DNN:|2024-04-22 15:31:52| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:52| NDCG@10=       1.00000
+INFO:DNN:|2024-04-22 15:31:52| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:52| NDCG@20=       1.00000
+INFO:DNN:|2024-04-22 15:31:52| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:52| NDCG@50=       1.00000
+INFO:DNN:|2024-04-22 15:31:52| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 15:31:52| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:52| NDCG@5=        1.00000
+INFO:DNN:|2024-04-22 15:31:52| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:52| NDCG@10=       1.00000
+INFO:DNN:|2024-04-22 15:31:52| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:52| NDCG@20=       1.00000
+INFO:DNN:|2024-04-22 15:31:52| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:52| NDCG@50=       1.00000
+INFO:DNN:|2024-04-22 15:31:54| -------------------------------------------------------------------------------
+INFO:DNN:|2024-04-22 15:31:54| Recall@5=      1.00000
+INFO:DNN:|2024-04-22 15:31:54| NDCG@5=        1.00000
+INFO:DNN:|2024-04-22 15:31:54| Recall@10=     1.00000
+INFO:DNN:|2024-04-22 15:31:54| NDCG@10=       1.00000
+INFO:DNN:|2024-04-22 15:31:54| Recall@20=     1.00000
+INFO:DNN:|2024-04-22 15:31:54| NDCG@20=       1.00000
+INFO:DNN:|2024-04-22 15:31:54| Recall@50=     1.00000
+INFO:DNN:|2024-04-22 15:31:54| NDCG@50=       1.00000
+INFO:DNN:|2024-04-22 15:31:56| Raw tensor loaded

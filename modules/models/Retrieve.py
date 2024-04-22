@@ -86,7 +86,7 @@ class HNSWIndex:
     def __init__(self, k, d):
         self.d = d
         self.k = k
-        self.index = faiss.IndexHNSWFlat(d, 32)  # 32是HNSW的层次数
+        self.index = faiss.IndexHNSWFlat(d, 64)  # 32是HNSW的层次数
 
     def search_topk_embeds(self, data_base, h_query):
         data_base, h_query = np.array(data_base).astype('float32'), np.array(h_query).astype('float32')

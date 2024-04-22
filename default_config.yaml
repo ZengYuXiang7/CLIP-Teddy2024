@@ -9,7 +9,7 @@ patience: 3
 logger: 'Run'
 dataset: 'rt'
 model: 'DNN'
-density: 0.80
+density: 0.0001
 
 # Debug configuration
 debug: 0

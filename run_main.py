@@ -41,8 +41,8 @@ class Raw2Vector:
 
     def retrieve(self, query, database):
         # query = query.unsqueeze(0).to(self.args.device)
-        query, database = query.to('cuda'), database.to('cuda')
-        logit_scale = self.model.logit_scale.exp().to('cuda')
+        query, database = query.to(self.args.device), database.to(self.args.device)
+        logit_scale = self.model.logit_scale.exp().to(self.args.device)
         logits_per_query = logit_scale * query @ database.t()
         probs = logits_per_query.softmax(dim=-1).cpu().detach().numpy()
         return probs
@@ -117,15 +117,6 @@ def get_all_text():
     return all_text_features
 
 
-def numpy_top_k_indices(matrix, k, axis=1):
-    if axis == 1:  # 处理每行
-        k = min(k, matrix.shape[1])
-        indices = np.argsort(matrix, axis=1)[:, -k:][:, ::-1]
-    elif axis == 0:  # 处理每列
-        k = min(k, matrix.shape[0])
-        indices = np.argsort(matrix, axis=0)[-k:, :][::-1, :]
-    return indices
-
 def high_speed_retreive(database, query, model, k):
     if isinstance(database, torch.Tensor):
         database = database.cpu()
@@ -145,6 +136,14 @@ def high_speed_retreive(database, query, model, k):
         print('执行KNN检索部分')
         probs = transfer.retrieve(database, query)
         t1 = time()
+        def numpy_top_k_indices(matrix, k, axis=1):
+            if axis == 1:  # 处理每行
+                k = min(k, matrix.shape[1])
+                indices = np.argsort(matrix, axis=1)[:, -k:][:, ::-1]
+            elif axis == 0:  # 处理每列
+                k = min(k, matrix.shape[0])
+                indices = np.argsort(matrix, axis=0)[-k:, :][::-1, :]
+            return indices
         topk_indices = numpy_top_k_indices(probs, k, 1)
         t2 = time()
         print(f'KNN: {t2 - t1 : .2f}s')

@@ -94,3 +94,5 @@ if __name__ == '__main__':
         print(f"{string:15s}{results['recalls'].mean():.4f}")
         string = f"NDCG@{k}="
         print(f"{string:15s}{results['ndcgs'].mean():.4f}")
+
+    print(results['recalls'][0])
